@@ -80,50 +80,49 @@ cargo run --bin cairo-run -- --single-file /path/to/file.cairo
 
 Для запуска специфических тестов, смотрите здесь: [cairo-test](./crates/cairo-lang-test-runner/README.md)
 
-### Compiling Starknet Contracts
+### Компиляция контрактов Starknet
 
-Compile a Starknet Contract to a Sierra ContractClass:
+Скомпилирует контракт Starknet в ContractClass Sierra:
 ```bash
 cargo run --bin starknet-compile -- --single-file /path/to/input.cairo /path/to/output.json
 ```
 
-Or specify the contract path if multiple contracts are defined in the same project:
+Или укажем путь к контракту, если множество контрактов определены в одном и том же проекте:
 ```bash
 cargo run --bin starknet-compile -- /path/to/input/crate /path/to/output.json --contract-path path::to::contract
 ```
 
-Compile the ContractClass of a CompiledClass:
+Скомпилируем ContractClass, относящийся к CompiledClass'у:
 ```bash
 cargo run --bin starknet-sierra-compile -- /path/to/input.json /path/to/output.casm
 ```
 
-### Development
+### Разработка
 
-#### Install the language server
+#### Установка языкового сервера
 
-Follow the instructions in [vscode-cairo](./vscode-cairo/README.md).
+Следуйте инструкциям в [vscode-cairo](./vscode-cairo/README.md).
 
-## Roadmap
+## Дорожная карта
 
-The next milestone is to reach feature parity with the old Cairo version.
-You can track the exact progress [here](./docs/FEATURE_PARITY.md).
+Следующей целью является достижение паритета по возможностям со старой версией Cairo.
+Вы можете отслеживать точный прогресс [здесь](./docs/FEATURE_PARITY.md).
 
-## Support
+## Поддержка
+- Мы рекомендуем разработчикам задавать и отвечать на вопросы на [stackoverflow](https://stackoverflow.com/questions/tagged/cairo-lang).
+- Контакты перечислены в [этом профиле GitHub](https://github.com/starkware-libs)
 
-- We encourage developers to ask and answer questions on [stackoverflow](https://stackoverflow.com/questions/tagged/cairo-lang).
-- Contact options listed on [this GitHub profile](https://github.com/starkware-libs)
+## Помощь проекту
 
-## Project assistance
+Если вы хотите **поблагодарить** и/или поддержать активную разработку Cairo:
 
-If you want to say **thank you** or/and support active development of Cairo:
+- Добавьте [GitHub Star](https://github.com/starkware-libs/cairo) в проект.
+- Сделайте твит о вашей разработке на Cairo.
+- Пишите интересные статьи о проекте на [Dev.to](https://dev.to/), [Medium](https://medium.com/) или в вашем личном блоге.
 
-- Add a [GitHub Star](https://github.com/starkware-libs/cairo) to the project.
-- Tweet about your Cairo work.
-- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
+Вместе мы можем сделать Cairo **лучше**!
 
-Together, we can make Cairo **better**!
-
-## Contributing
+## Вклад
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
