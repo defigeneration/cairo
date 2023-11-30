@@ -46,39 +46,39 @@ Cairo is the first Turing-complete language for creating provable programs for g
 
 ## Начало
 
-### Prerequisites
+### Подготовка
 
-- Install [Rust](https://www.rust-lang.org/tools/install)
-- Setup Rust:
+- Установка [Rust](https://www.rust-lang.org/tools/install)
+- Установим Rust:
 ```bash
 rustup override set stable && rustup update
 ```
 
-Ensure rust was installed correctly by running the following from the root project directory:
+Убедитесь, что rust установлен корректно путем выполнения следующей команды:
 ```bash
 cargo test
 ```
 
-### Compiling and running Cairo files
+### Компиляция и запуск файлов Cairo
 
-Compile Cairo to Sierra:
+Скомпилируем Cairo в Sierra:
 ```bash
 cargo run --bin cairo-compile -- --single-file /path/to/input.cairo /path/to/output.sierra --replace-ids
 ```
 
-Compile Sierra to casm (Cairo assembly):
+Скомпилируем Sierra в casm (Cairo assembly):
 ```bash
 cargo run --bin sierra-compile -- /path/to/input.sierra /path/to/output.casm
 ```
 
-Run Cairo code directly:
+Запустим код Cairo напрямую:
 ```bash
 cargo run --bin cairo-run -- --single-file /path/to/file.cairo
 ```
 
-See more information [here](./crates/cairo-lang-runner/README.md). You can also find Cairo examples in the [examples](./examples) directory.
+Больше информации [здесь](./crates/cairo-lang-runner/README.md). Более того, вы можете найти примеры на Cairo в директории [examples](./examples) .
 
-For running tests specifically, see here: [cairo-test](./crates/cairo-lang-test-runner/README.md)
+Для запуска специфических тестов, смотрите здесь: [cairo-test](./crates/cairo-lang-test-runner/README.md)
 
 ### Compiling Starknet Contracts
 
