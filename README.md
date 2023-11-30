@@ -20,31 +20,31 @@
 </div>
 
 <details open="open">
-<summary>Table of Contents</summary>
+<summary>Содержание</summary>
 
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Compiling and running Cairo files](#compiling-and-running-cairo-files)
-  - [Development](#development)
-    - [Install the language server](#install-the-language-server)
-- [Roadmap](#roadmap)
-- [Support](#support)
-- [Project assistance](#project-assistance)
-- [Contributing](#contributing)
-- [Authors \& contributors](#authors--contributors)
-- [Security](#security)
-- [License](#license)
+- [О проекте](#about)
+- [Начало](#getting-started)
+  - [Подготовка](#prerequisites)
+  - [Компиляция и запуск файлов Cairo](#compiling-and-running-cairo-files)
+  - [Разработка](#development)
+    - [Установка языкового сервера](#install-the-language-server)
+- [Дорожная карта](#roadmap)
+- [Поддержка](#support)
+- [Поддержка по проекту](#project-assistance)
+- [Вклад в дело](#contributing)
+- [Авторы и контрибьюторы](#authors--contributors)
+- [Безопасность](#security)
+- [Лицензия](#license)
 
 </details>
 
 ---
 
-## About
-
+## О проекте
+Cairo - это первый полноценный по Тьюрингу язык для создания доказуемых программ для общих вычислений
 Cairo is the first Turing-complete language for creating provable programs for general computation.
 
-## Getting Started
+## Начало
 
 ### Prerequisites
 
