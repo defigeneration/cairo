@@ -1,13 +1,13 @@
 <div align="center">
   <h1>Cairo 🐺 </h1>
-  <h2> ⚡ Blazing ⚡ fast ⚡ compiler for Cairo, written in 🦀 Rust 🦀 </h2>
+  <h2> ⚡ Супер ⚡ быстрый ⚡ компилятор для Cairo, написанный на 🦀 Rust 🦀 </h2>
   <img src="./resources/img/cairo-logo-square.png" height="200" width="200">
   <br />
-  <a href="https://github.com/starkware-libs/cairo/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/starkware-libs/cairo/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Сообщить о баге</a>
   -
-  <a href="https://github.com/starkware-libs/cairo/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  <a href="https://github.com/starkware-libs/cairo/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Предложить улучшение</a>
   -
-  <a href="https://github.com/starkware-libs/cairo/discussions">Ask a Question</a>
+  <a href="https://github.com/starkware-libs/cairo/discussions">Задать вопрос</a>
 </div>
 
 <div align="center">
