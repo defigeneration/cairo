@@ -116,7 +116,7 @@ cargo run --bin starknet-sierra-compile -- /path/to/input.json /path/to/output.c
 
 Если вы хотите **поблагодарить** и/или поддержать активную разработку Cairo:
 
-- Добавьте [GitHub Star](https://github.com/starkware-libs/cairo) в проект.
+- Поставьте [звезду GitHub](https://github.com/starkware-libs/cairo) проекту.
 - Сделайте твит о вашей разработке на Cairo.
 - Пишите интересные статьи о проекте на [Dev.to](https://dev.to/), [Medium](https://medium.com/) или в вашем личном блоге.
 
